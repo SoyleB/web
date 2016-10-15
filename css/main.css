@@ -1,7 +1,4 @@
-* {
-  border:1px solid red;
 
-}
 
 html, body{
   height: 100%;
@@ -14,6 +11,17 @@ html, body{
 }
 .fill{
   min-height:100%;
+}
+
+.col-md-2 {
+	padding-bottom: 32767px;
+	margin-bottom: -32767px;
+	}
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+background-color: red;
+color: black;
 }
 
 .red {
