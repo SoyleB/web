@@ -1,0 +1,38 @@
+* {
+  border:1px solid red;
+
+}
+
+html, body{
+  height: 100%;
+  background-color:#eceff3;
+}
+
+.container-fluid {
+    height: 100%;
+    overflow-y: hidden; /* don't show content that exceeds my height */
+}
+.fill{
+  min-height:100%;
+}
+
+.red {
+  background-color:red;
+}
+.blue{
+  background-color: #21afff;
+}
+
+.list-group-item {
+  border: none;
+}
+
+hr{
+    height:1px;
+    padding:0px;
+    margin:0px;
+}
+
+.well{
+  background-color:white;
+}
